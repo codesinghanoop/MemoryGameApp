@@ -37,7 +37,7 @@ class GameArea extends React.Component {
     }
 
     componentDidMount() {
-        this.props.persistor.purge()
+        // this.props.persistor.purge()
         const { timeLeft } = this.state
         this.startTimer()
     }
